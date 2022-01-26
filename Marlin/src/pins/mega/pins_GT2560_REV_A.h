@@ -33,7 +33,7 @@
 #ifndef BOARD_INFO_NAME
   #define BOARD_INFO_NAME "GT2560 Rev.A"
 #endif
-#define DEFAULT_MACHINE_NAME "Prusa i3 Pro B"
+#define DEFAULT_MACHINE_NAME "Luca 3D"
 
 //
 // Limit Switches
@@ -90,8 +90,8 @@
 // Heaters / Fans
 //
 #define HEATER_0_PIN                           2
-#define HEATER_1_PIN                           3
-#define HEATER_BED_PIN                         4
+#define HEATER_1_PIN                           4
+#define HEATER_BED_PIN                         3
 #ifndef FAN_PIN
   #define FAN_PIN                              7
 #endif
